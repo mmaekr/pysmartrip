@@ -7,8 +7,8 @@ import requests
 
 ST_USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0"
 BAD_LOGIN_STRINGS = ("Invalid user name or password.", "Your account has been locked.")
-LOGIN_URL = "https://smartrip.wmata.com/Account/Login"
-ACCOUNT_SUMMARY_URL = "https://smartrip.wmata.com/Account/Summary"
+LOGIN_URL = "https://smarttrip.wmata.com/Account/Login"
+ACCOUNT_SUMMARY_URL = "https://smarttrip.wmata.com/Account/Summary"
 CARD_REGEX = "/Card/Summary/Index/([0-9]+)"
 
 
